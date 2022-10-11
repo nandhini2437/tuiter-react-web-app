@@ -1,132 +1,137 @@
-html {
-    background-color: black;
+.wd-maincontent {
+  border: 2px solid rgb(52, 52, 52);
+}
+.form-control {
+  background-color: rgb(52, 52, 52);
+  color: lightgray;
+  border: none;
+}
+.container-fluid.override-bs {
+  background-color: black;
+}
+.card-text.override-bs {
+  font-size: small;
+}
+.cardImage.override-bs {
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  margin: 1px;
+}
+.btn-primary.override-bs {
+  /*background-color: #a90dfd;*/
+  background-color: deepskyblue;
+  height: 35px;
+  width: 100%;
+
+  border-radius: 50px;
+  /*border-style: dashed;*/
+  font-size: 0.75em;
+  font-weight: bolder;
+}
+.btn-light.follow {
+  /*background-color: #a90dfd;*/
+  /*border-color: #fd0d51;*/
+
+  height: 35px;
+  width: 100%;
+  border-radius: 50px;
+  /*border-style: dashed;*/
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+.input-group-text.override-bs {
+  color: darkgray;
+  border-radius: 30px;
+  background-color: rgb(52, 52, 52);
+  border: none;
 }
 
-hr.wd-hr {
-    border: 0.5px solid rgb(110, 118, 125);
+.list-group-item.override-bs {
+  color: white;
+  background-color: transparent;
 }
 
-
-.wd-navigation_at_top {
-    margin: 20px 0;
+.list-group-item.imagePost {
+  padding: 0;
+  border: none;
+  border-top: 2px solid rgb(52, 52, 52);
+  border-bottom: 2px solid rgb(52, 52, 52);
+}
+.list-group-item.active {
+  font-weight: bolder;
+  background-color: transparent;
+  border-color: transparent;
 }
 
-.wd-icons-in-input-field i {
-    position: absolute;
-    float: left;
+.list-group-item.follow-list {
+  border: none;
+
+  color: white;
+  background-color: transparent;
+  font-weight: 800;
+}
+.form-control.override-bs {
+  border-left: 0;
+  border-radius: 30px;
 }
 
-.wd-icons-in-input-field {
-    width: 95%;
-    margin-bottom: 10px;
-    float: left;
+.cardImage {
+  /*margin: auto auto;*/
+  height: 34px;
+  width: 33px;
 }
 
-.wd-icon {
-    padding: 10px;
-    min-width: 40px;
-    color: rgb(110, 118, 125);
-}
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(110, 118, 125);
-    opacity: 1; /* Firefox */
-}
-.fa fa-ellipsis-h{
-    color: rgb(110, 118, 125);
-}
-.wd-tick-icon {
-    height:14px ;
-    width:14px ;
-}
-.wd-gear-icon {
-    height:27px ;
-    width:27px ;
-    border-color: #61dafb;
-}
-.wd-text-input-field {
-    width: 85%;
-    padding: 10px;
-    background-color: rgb(128,128,128,0.4);
-    border-color: black;
-    padding: 12px 40px;
-    border-radius: 50px;
-    color:white;
-}
-.wd-setting-icon {
-    float: right;
-    padding: 10px;
-    margin-right: 12px;
-    font-size: 30px;
-    color: #1DA1F2;
-}
-/*  change all link colors */
-:link { color: #1DA1F2; }
-:visited { color: #1DA1F2; }
-
-.wd-list-of-navigations {
-    list-style: none;
-    width: 1000px;
+.card.override-bs {
+  border: none;
 }
 
-.wd-list-of-navigations li {
-    display:block;
-    width:120px;
-    float:left;
-    margin-left:2px;
-
+.card-body {
+  padding: 0px !important;
+  font-size: 12px !important;
+}
+.fa.fa-cog.override-bs {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: large;
 }
 
-.wd-list-of-navigations a {
-    display:block;
-    padding:16px;
-    font-size: 15px;
-    text-decoration:none;
-    color:rgb(110, 118, 125);
+.nav-tabs .nav-link.override-bs {
+  background: transparent;
+
+  color: grey;
 }
 
-.wd-list-of-navigations a:hover {
-    color:rgb(29,161,242);
+.list-group.override-bs {
+  background-color: rgb(52, 52, 52);
 }
 
-.wd-list-of-navigations li.wd-active-tab a {
-    width: fit-content;
-    color:rgb(29,161,242) !important;
-    border-bottom: 2px solid rgb(29,161,242) !important;
-
+.iconName {
+  width: 14%;
 }
 
-.wd-posts {
-    position: absolute;
-    top: 120px;
-    width: -webkit-fill-available;
+/* .list-group.list-group-left {
+  margin-left: 25%;
 }
 
-.wd-trendingPosts {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
+.list-group.list-group-right {
+  margin-right: 25%;
+} */
+
+.showButton {
+  color: dodgerblue;
+  font-weight: 650;
 }
 
-.wd-head-post {
-    font-size: 18px;
-    color: white;
+.footerText {
+  padding: 0.5rem 1rem;
 }
-
-.wd-right-float {
-    float: right;
-    margin-right: 16px;
-    color: white;
-    font-size: 20px;
-}
-
-.wd-picture {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-}
-
-.wd-title-trendingPost {
-    color: white;
-}
-.wd-title-sub-trendingPost {
-    color: rgb(110, 118, 125);
+.nav-link.active.override-bs {
+  color: grey;
+  background-color: transparent;
+  border: none;
+  border-bottom: 6px solid dodgerblue;
+  font-weight: bolder;
+  /*text-decoration: underline dodgerblue 5px;*/
 }
