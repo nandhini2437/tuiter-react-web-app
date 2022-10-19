@@ -8,7 +8,7 @@ const WhoToFollowListItem  = (who) => {
                             </div>
                             <div class="col-lg-5 col-xl-5 col-xxl-5">
                                 <div class="wd-sideNavHeader bold">${who.userName}
-                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
                                 </div>
                                 <span class="wd-postTrendingTittleSubSide"> ${who.handle}</span>
                             </div>

@@ -3,7 +3,7 @@ const NavigationSidebar = () => {
    <div class="list-group">
      <a class="list-group-item" href="/">
        <i class="fab fa-twitter"></i></a>
-        <a href="#" class="list-group-item override-bs list-group-item-action active" aria-current="true">-->
+        <a href="#" class="list-group-item override-bs list-group-item-action active" aria-current="true">
                         <i class="fa fa-home iconName"></i> <span class="d-none d-lg-none d-xl-inline-block  ">Home</a>
                     <a href="#" class="list-group-item override-bs list-group-item-action"><i
                             class="fa fa-hashtag iconName"></i>
