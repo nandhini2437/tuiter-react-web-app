@@ -15,7 +15,7 @@ const NavigationSidebar = () => {
                     <a href="#" class="list-group-item override-bs list-group-item-action"><i
                             class="fa fa-envelope iconName "></i> <span
                             class="d-none d-lg-none d-xl-inline-block   ">Messages</span></a>
-                    <a href="#" class="list-group-item override-bs list-group-item-action"><i
+                    <a href="../../tuiter/bookmarks/index.html" class="list-group-item override-bs list-group-item-action"><i
                             class="fa fa-bookmark iconName "></i> <span
                             class="d-none d-lg-none d-xl-inline-block   ">Bookmarks</span></a>
                     <a href="#" class="list-group-item override-bs list-group-item-action"><i
