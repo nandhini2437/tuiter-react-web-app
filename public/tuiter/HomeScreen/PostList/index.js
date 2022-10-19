@@ -4,7 +4,7 @@ import posts from "./posts.js";
 
 const PostItemList  = () => {
     return(`
-    <div class="contentBox">
+    <div class="wd-mainContainer">
         ${
         posts.map(post => {
             return(PostItemListItem(post));

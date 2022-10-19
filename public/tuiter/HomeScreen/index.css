@@ -1,112 +1,150 @@
-.wd_iconText {
-    margin-left: 10px;
+.wd-mainContainer {
+    /* margin-left: 16px;
+    margin-top: 12px; */
+    border: 1px solid grey;
+    background-color: black;
 }
 
-.logo_sideBar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border-top-left-radius: 50% !important;
-    border-top-right-radius: 50% !important;
+html {
+    background-color: black;
 }
-
-.wd-sideNavHeader {
-    margin-bottom: 0px !important;
-    font-size: 15px;
+hr.wd-ruler {
+    border-bottom: 1px solid rgb(110, 118, 125);
 }
-
-.wd-postTrendingTittleSubSide {
-    font-weight: 400;
-    font-size: 13px;
-}
-
-.contentBox .card {
-    flex-direction: row;
-}
-
-.contentBox .card img {
-    width: 100px;
-}
-
-.bold {
+.wd-TitleBmk {
+    padding-left: 16px;
+    padding-top: 12px;
+    font-size: 20px;
+    color: white;
     font-weight: bold;
 }
-
-.contentBox p {
-    margin-bottom: 0px !important;
+.wd-handlerBmk {
+    font-size: 13px;
+    padding-left: 16px;
+    padding-top: 12px;
+    color: rgb(110, 118, 125);
+    padding-bottom: 12px;
 }
 
-.wd-postTrendingTitle {
+.wd-headerBmk {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.wd-headerBmk1 {
+    height: 700px;
+    padding-left: 16px;
+    padding-top: 15px;
+}
+
+.wd-ProfPicBmk {
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-row {
+    display: block;
+    clear: both;
+}
+
+.wd-leftColum {
+    /* width: 10%; */
+    float: left;
+}
+
+.wd-rightCol {
+    /* width: 30%; */
+    margin-left: 12px;
+    float: left;
+}
+
+.wd-leftColum1 {
+    /* width: 10%; */
+    padding-top: 25px;
+    float: left;
+}
+
+.wd-rightCol1 {
+    /* width: 30%; */
+    padding-top: 25px;
+    margin-left: 12px;
+    float: left;
+}
+
+.wd-picCaption {
+    display: inline;
+    font-size: 15px;
     color: white;
 }
-.wd-postTrendingTittleSub {
+
+.wd-picHandler {
+    font-size: 15px;
     color: rgb(110, 118, 125);
 }
 
-.centerColImgWrapper {
-    display: flex;
-    margin-right: 13px;
-}
-
-.wd_search_icon {
-    border-top-left-radius: 50px !important;
-    border-bottom-left-radius: 50px !important;
-    background-color: white !important;
-    border-color: rgb(110, 118, 125) !important;
-    color: darkgray !important;;
-}
-
-.wd_search_icon_input {
-    border-top-right-radius: 50px !important;
-    border-bottom-right-radius: 50px !important;
-    /* background-color: rgb(110, 118, 125) !important; */
-    /* color: darkgray !important;; */
-}
-
-
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-.myContainer {
-    position: relative;
-    text-align: center;
+.wd-PicDesc {
+    font-size: 15px;
     color: white;
+    width: 506px;
+    margin-bottom: 16px;
+}
+.wd-icon {
+    height: 14px;
+    width: 14px;
+}
+.wd-bookmark-contentImgBack {
+    border-radius: 20px;
+    width: 504px;
+
+    border: 1px solid rgb(110, 118, 125);
 }
 
-.list-group .active {
-    background-color: rgb(29,161,242);
+.wd-bookmark-contentImg {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 504px;
+    height: 264px;
 }
 
-.wd-post-card{
-    margin-bottom: 10px !important;
+.wd-bookmark-contentImg-Title {
+    color: white;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
+.wd-bookmark-contentImg-Content {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
 
-
-.wd-navigation-list {
+.wd-nav {
     list-style: none;
     width: 504px;
 }
 
-.wd-navigation-list li {
-    display:block;
-    width:110px;
-    float:left;
-    margin-left:2px;
-
+.wd-nav li {
+    display: block;
+    width: 110px;
+    float: left;
+    margin-left: 2px;
 }
 
-.wd-navigation-list a {
-    display:block;
-    padding:16px;
+.wd-nav a {
+    display: block;
+    padding: 16px;
     font-size: 15px;
-    text-decoration:none;
-    color:rgb(110, 118, 125);
+    text-decoration: none;
+    color: rgb(110, 118, 125);
 }
 
-.wd-icon-space {
+.fa.fa-heart {
+    color: red;
+}
+.wd-ReactIcon {
     margin-left: 12px;
 }
