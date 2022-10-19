@@ -1,7 +1,7 @@
 const PostItem   = (post) => {
     return(`
     <div class="card wd-post-card">
-                    <div class="card-body">
+                    <div class="card-body mainCard">
        <div class="wd-row wd-headerBmk">
             <div class="wd-leftColum">
                 <img class="wd-ProfPicBmk" src=${post.profile_pic} />

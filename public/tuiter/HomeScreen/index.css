@@ -1,7 +1,7 @@
 .wd-mainContainer {
     /* margin-left: 16px;
     margin-top: 12px; */
-    border: 1px solid grey;
+
     background-color: black;
 }
 
@@ -93,17 +93,18 @@ hr.wd-ruler {
     width: 14px;
 }
 .wd-bookmark-contentImgBack {
-    border-radius: 20px;
+    border-radius: 25px;
     width: 504px;
 
     border: 1px solid rgb(110, 118, 125);
 }
 
 .wd-bookmark-contentImg {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 504px;
-    height: 264px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 1px solid rgb(110, 118, 125) ;
+    width: 100%;
+    height: 100%;
 }
 
 .wd-bookmark-contentImg-Title {
@@ -148,6 +149,173 @@ hr.wd-ruler {
 .wd-ReactIcon {
     margin-left: 12px;
 }
-.card-body{
+.mainCard{
     background-color: black;
+}
+
+.logo_sideBar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top-left-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.myContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.wd-sideNavHeader {
+    margin-bottom: 0px !important;
+    font-size: 15px;
+}
+.wd-postTrendingTittleSubSide {
+    font-weight: 400;
+    font-size: 13px;
+}
+.wd-maincontent {
+    border: 2px solid rgb(52, 52, 52);
+}
+.form-control {
+    background-color: white;
+    color: lightgray;
+    border: none;
+}
+.container-fluid.override-bs {
+    background-color: black;
+}
+.card-text.override-bs {
+    font-size: small;
+}
+.cardImage.override-bs {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    margin: 1px;
+}
+.btn-primary.override-bs {
+    /*background-color: #a90dfd;*/
+    background-color: deepskyblue;
+    height: 35px;
+    width: 100%;
+
+    border-radius: 50px;
+    /*border-style: dashed;*/
+    font-size: 0.75em;
+    font-weight: bolder;
+}
+.btn-light.follow {
+    /*background-color: #a90dfd;*/
+    /*border-color: #fd0d51;*/
+
+    height: 35px;
+    width: 100%;
+    border-radius: 50px;
+    /*border-style: dashed;*/
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+.input-group-text.override-bs {
+    color: darkgray;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+}
+
+.list-group-item.override-bs {
+    color: white;
+    background-color: darkg;
+    font-size: small;
+    border: 1px solid rgb(52, 52, 52);
+}
+
+.list-group-item.imagePost {
+    padding: 0;
+    border: none;
+    border-top: 2px solid rgb(52, 52, 52);
+    border-bottom: 2px solid rgb(52, 52, 52);
+}
+.list-group-item.active {
+    font-weight: bolder;
+    border-color: transparent;
+}
+
+.list-group-item.follow-list {
+    border: none;
+
+    color: white;
+    background-color: transparent;
+    font-weight: 800;
+}
+.form-control.override-bs {
+    border-left: 0;
+    border-radius: 30px;
+}
+
+.cardImage {
+    /*margin: auto auto;*/
+    height: 34px;
+    width: 33px;
+}
+
+.card.override-bs {
+    border: none;
+}
+
+.card-body {
+    padding: 0px !important;
+    font-size: 12px !important;
+}
+.fa.fa-cog.override-bs {
+    color: deepskyblue;
+
+    font-size: x-large;
+}
+
+.nav-tabs .nav-link.override-bs {
+    background: transparent;
+
+    color: white;
+}
+
+.list-group.override-bs {
+    background-color: rgb(52, 52, 52);
+}
+
+.iconName {
+    width: 14%;
+}
+
+/* .list-group.list-group-left {
+  margin-left: 25%;
+}
+
+.list-group.list-group-right {
+  margin-right: 25%;
+} */
+
+.showButton {
+    color: deepskyblue;
+    font-size: small;
+}
+
+.footerText {
+    font-size: small;
+    padding: 0.5rem 1rem;
+    padding-bottom: 0;
+    margin: 0;
+}
+.nav-link.active.override-bs {
+    color: white;
+    background-color: deepskyblue;
+    border: none;
+
+
+    /*text-decoration: underline dodgerblue 5px;*/
 }
