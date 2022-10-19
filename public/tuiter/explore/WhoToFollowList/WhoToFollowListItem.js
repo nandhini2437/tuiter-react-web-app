@@ -10,7 +10,7 @@ const WhoToFollowListItem  = (who) => {
                                 <div class="wd-sideNavHeader bold">${who.userName}
                                     <i class="fa fa-check-circle" aria-hidden="true"></i>
                                 </div>
-                                <span class="wd-postTrendingTittleSubSide"> ${who.handle}</span>
+                                <span class="wd-postTrendingTittleSubSide"> @${who.handle}</span>
                             </div>
                             <div class="col-lg-4 col-xl-4 col-xxl-4">
                                 <button class="btn btn-primary btn-block rounded-pill">
@@ -18,7 +18,11 @@ const WhoToFollowListItem  = (who) => {
                                 </button>
                             </div>
                         </div>
-                        </li>
+                        
+                        
+                        
+                        
+                        
     `);
 }
 export default WhoToFollowListItem;

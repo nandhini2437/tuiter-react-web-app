@@ -17,23 +17,26 @@ const ExploreComponent = () => {
                                     class="fa fa-cog override-bs fa-2x"></i></button>
                         </div>
                     </div>
-           <ul class="nav nav-tabs nav-fill border-0">
-                        <li class="nav-item w-20">
-                            <a class="nav-link active override-bs" href="#">For You</a>
-                        </li>
-                        <li class="nav-item w-20">
-                            <a class="nav-link override-bs" href="#">Trending</a>
-                        </li>
-                        <li class="nav-item w-20">
-                            <a class="nav-link override-bs" href="#">News</a>
-                        </li>
-                        <li class="nav-item w-20">
-                            <a class="nav-link override-bs" href="#">Sports</a>
-                        </li>
-                        <li class="nav-item w-20">
-                            <a class="nav-link override-bs d-none  d-sm-none d-md-block" href="#">Entertainment</a>
-                        </li>
-                    </ul>
+           <ul class="nav mb-2 nav-tabs">
+                      <!-- tabs -->
+                      <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../for-you.html">For you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../trending.html">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../sports.html">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../entertainment.html">Entertainment</a>
+                    </li>
+                </ul>
+           </ul>
            <!-- image with overlaid text -->
            <div class="myContainer">
                 <img src="../../images/tuiter/explore/spaceship.jpeg" style="width:100%; height: 300px;">

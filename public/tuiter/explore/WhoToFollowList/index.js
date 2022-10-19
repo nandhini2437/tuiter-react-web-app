@@ -5,7 +5,7 @@ import whos from "./who.js";
 const WhoToFollowList  = () => {
     return(`
     <div class="card" >
-        <div class="card-header">
+        <div class="card-header bold">
             Who to follow
         </div>
         <ul class="list-group list-group-flush">
