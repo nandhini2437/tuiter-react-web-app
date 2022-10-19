@@ -148,3 +148,6 @@ hr.wd-ruler {
 .wd-ReactIcon {
     margin-left: 12px;
 }
+.card-body{
+    background-color: black;
+}
