@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Explore screen</title>
+</head>
+
+<body>
+
+<div class="container" id="wd-explore"></div>
+<script src="index.js" type="module"></script>
+
+</body>
+
+</html>
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Explore</title>-->
+<!--    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />-->
+<!--    &lt;!&ndash;    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>&ndash;&gt;-->
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />-->
+<!--    <link href="index.css" rel="stylesheet" />-->
+<!--    &lt;!&ndash;    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">&ndash;&gt;-->
+<!--</head>-->
+
+<!--<body>-->
+<!--    <div class="container-fluid override-bs">-->
+<!--        <div class="row pt-2">-->
+<!--            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2 offset-1 offset-sm-1  offset-md-1   offset-lg-1 offset-xl-1 offset-xxl-1 ">-->
+<!--                <div class="list-group list-width list-group-left">-->
+<!--                    <li class="list-group-item override-bs"><i class="fab fa-twitter"></i></li>-->
+<!--                    <a href="#" class="list-group-item override-bs list-group-item-action active" aria-current="true">-->
+<!--                        <i class="fa fa-home iconName"></i> <span class="d-none d-lg-none d-xl-inline-block  ">Home</a>-->
+<!--                    <a href="#" class="list-group-item override-bs list-group-item-action"><i-->
+<!--                            class="fa fa-hashtag iconName"></i>-->
+<!--                        <span class="d-none d-lg-none d-xl-inline-block   ">Explore</span></a>-->
+<!--                    <a href="#" class="list-group-item override-bs list-group-item-action"><i-->
+<!--                            class="fa fa-bell iconName"></i>-->
+<!--                        <span class="d-none d-lg-none d-xl-inline-block   ">Notification</span></a>-->
+<!--                    <a href="#" class="list-group-item override-bs list-group-item-action"><i-->
+<!--                            class="fa fa-envelope iconName "></i> <span-->
+<!--                            class="d-none d-lg-none d-xl-inline-block   ">Messages</span></a>-->
+<!--                    <a href="#" class="list-group-item override-bs list-group-item-action"><i-->
+<!--                            class="fa fa-bookmark iconName "></i> <span-->
+<!--                            class="d-none d-lg-none d-xl-inline-block   ">Bookmarks</span></a>-->
+<!--                    <a href="#" class="list-group-item override-bs list-group-item-action"><i-->
+<!--                            class="fa fa-list iconName "></i>-->
+<!--                        <span class="d-none d-lg-none d-xl-inline-block   ">Lists</span></a>-->
+<!--                    <a href="#" class="list-group-item override-bs list-group-item-action"><i-->
+<!--                            class="fa fa-user iconName "></i>-->
+<!--                        <span class="d-none d-lg-none d-xl-inline-block  ">Profile</span></a>-->
+<!--                    <a href="#" class="list-group-item override-bs list-group-item-action"><i-->
+<!--                            class="fa fa-ellipsis-h iconName "></i> <span-->
+<!--                            class="d-none d-lg-none d-xl-inline-block  ">More</span></a>-->
+<!--                    <br />-->
+<!--                    <button class="btn btn-primary override-bs">-->
+<!--                        Tweet-->
+<!--                    </button>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-9 col-sm-9 col-md-9 col-lg-7 col-xl-6 col-xxl-5 ">-->
+<!--                <div class="wd-maincontent">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-10">-->
+<!--                            <div class="input-group override-bs m-2 ">-->
+<!--                                <span class="input-group-text override-bs"><i class="fa fa-search"></i></span>-->
+
+
+<!--                                <input type="text" class="form-control override-bs" placeholder="Search Twitter"-->
+<!--                                    aria-label="Recipient's username" aria-describedby="button-addon2">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-1">-->
+<!--                            <button class="btn mt-2" type="button" id="button-addon2"><i-->
+<!--                                    class="fa fa-cog override-bs fa-2x"></i></button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <ul class="nav nav-tabs nav-fill border-0">-->
+<!--                        <li class="nav-item w-20">-->
+<!--                            <a class="nav-link active override-bs" href="#">For You</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item w-20">-->
+<!--                            <a class="nav-link override-bs" href="#">Trending</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item w-20">-->
+<!--                            <a class="nav-link override-bs" href="#">News</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item w-20">-->
+<!--                            <a class="nav-link override-bs" href="#">Sports</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item w-20">-->
+<!--                            <a class="nav-link override-bs d-none  d-sm-none d-md-block" href="#">Entertainment</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+
+<!--                    <div class="list-group">-->
+<!--                        <li class="list-group-item list-group-item-dark imagePost rounded-0"><img-->
+<!--                                style="object-fit: fill;" src="..\..\images\tuiter\explore\spaceship.jpeg"-->
+<!--                                class="img-fluid" alt="...">-->
+<!--                        </li>-->
+<!--                        <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                            <div class="row g-0">-->
+
+<!--                                <div class="col-10">-->
+<!--                                    <div class="card-body">-->
+<!--                                        <p class="card-text override-bs text-muted">Web Development</p>-->
+<!--                                        <h6 class="card-text override-bs">ReactJS <i class="fa fa-check-circle"></i> - -->
+<!--                                            2h</h6>-->
+<!--                                        <p class="card-text override-bs ">React.js is a component based front end-->
+<!--                                            library that makes it very easy to build Single Page Applications or SPAs-->
+<!--                                        </p>-->
+
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-2">-->
+<!--                                    <img class="rounded float-right" style="width:100%; height:100%;"-->
+<!--                                        src="..\..\images\tuiter\explore\react.png" class="img-fluid rounded-start"-->
+<!--                                        alt="...">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                        <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                            <div class="row g-0">-->
+
+<!--                                <div class="col-10">-->
+<!--                                    <div class="card-body">-->
+<!--                                        <h6 class="card-text override-bs">JavaScript <i class="fa fa-check-circle"></i>-->
+<!--                                            - 2h</h6>-->
+<!--                                        <p class="card-text override-bs ">JavaScript is a programming language that can-->
+<!--                                            run on browsers as well as desktops</p>-->
+<!--                                        <p class="card-text override-bs text-muted">123K Tweets</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-2">-->
+<!--                                    <img class="rounded float-right" style="width:100%; height:100%;"-->
+<!--                                        src="..\..\images\tuiter\explore\java-script.png"-->
+<!--                                        class="img-fluid rounded-start" alt="...">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                        <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                            <div class="row g-0">-->
+
+<!--                                <div class="col-10">-->
+<!--                                    <div class="card-body">-->
+<!--                                        <p class="card-text override-bs text-muted">Web Development</p>-->
+<!--                                        <p class="card-text override-bs ">jQuery</p>-->
+<!--                                        <p class="card-text override-bs text-muted">123K Tweets</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-2">-->
+<!--                                    <img class="rounded float-right" style="width:100%; height:100%;"-->
+<!--                                        src="..\..\images\tuiter\explore\jquery.png" class="img-fluid rounded-start"-->
+<!--                                        alt="...">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+
+<!--                        <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                            <div class="row g-0">-->
+
+<!--                                <div class="col-10">-->
+<!--                                    <div class="card-body">-->
+<!--                                        <p class="card-text override-bs text-muted">Web Development</p>-->
+<!--                                        <h6 class="card-text override-bs">NodeJS <i class="fa fa-check-circle"></i> - 2h-->
+<!--                                        </h6>-->
+<!--                                        <p class="card-text override-bs text-muted">123K Tweets</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-2">-->
+<!--                                    <img class="rounded float-right" style="width:100%; height:100%;"-->
+<!--                                        src="..\..\images\tuiter\explore\nodejs.png" class="img-fluid rounded-start"-->
+<!--                                        alt="...">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+
+
+<!--            </div>-->
+<!--            <div class=" col-lg-3 col-xl-3 col-xxl-3 d-none  d-sm-none d-md-none d-lg-block ">-->
+<!--                <div class="list-group override-bs list-width list-group-right">-->
+<!--                    <li class="list-group-item follow-list">Who to follow</li>-->
+<!--                    <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                        <div class="techListRow row g-0">-->
+<!--                            <div class="col-2">-->
+<!--                                <img  src="..\..\images\tuiter\explore\java-image.png"-->
+<!--                                     class="img-fluid rounded-start cardImage override-bs" alt="...">-->
+<!--                            </div>-->
+<!--                            <div class="col-7 col-lg-6">-->
+<!--                                <div class="card-body">-->
+<!--                                    <h6 class="card-text override-bs">Java <i class="fa fa-check-circle"></i></h6>-->
+<!--                                    <p class="card-text override-bs text-muted">@Java</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-3 col-lg-4">-->
+<!--                                <button class="btn btn-light follow">-->
+<!--                                    Follow-->
+<!--                                </button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
+<!--                    <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                        <div class="techListRow row g-0">-->
+<!--                            <div class="col-2">-->
+<!--                                <img-->
+<!--                                    src="..\..\images\tuiter\explore\relativity-space.png"-->
+<!--                                     class="img-fluid rounded-start cardImage override-bs" alt="...">-->
+<!--                            </div>-->
+<!--                            <div class="col-7 col-lg-6">-->
+<!--                                <div class="card-body">-->
+<!--                                    <h6 class="card-text override-bs">Relativity Space <i-->
+<!--                                            class="fa fa-check-circle"></i></h6>-->
+<!--                                    <p class="card-text override-bs text-muted">@relativityspace</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-3 col-lg-4">-->
+<!--                                <button class="btn btn-light follow">-->
+<!--                                    Follow-->
+<!--                                </button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
+
+<!--                    <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                        <div class="techListRow row g-0">-->
+<!--                            <div class="col-2">-->
+<!--                                <img  src="..\..\images\tuiter\explore\virgin.png"-->
+<!--                                     class="img-fluid rounded-start cardImage override-bs" alt="...">-->
+<!--                            </div>-->
+<!--                            <div class="col-7 col-lg-6">-->
+<!--                                <div class="card-body">-->
+<!--                                    <h6 class="card-text override-bs">Virgin Galactic <i class="fa fa-check-circle"></i>-->
+<!--                                    </h6>-->
+<!--                                    <p class="card-text override-bs text-muted">@virgingalactic</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-3 col-lg-4">-->
+<!--                                <button class="btn btn-light follow">-->
+<!--                                    Follow-->
+<!--                                </button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
+<!--                    <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                        <div class="techListRow row g-0">-->
+<!--                            <div class="col-2">-->
+<!--                                <img  src="..\..\images\tuiter\explore\nasa.png"-->
+<!--                                     class="img-fluid rounded-start cardImage override-bs" alt="...">-->
+<!--                            </div>-->
+<!--                            <div class="col-7 col-lg-6">-->
+<!--                                <div class="card-body">-->
+<!--                                    <h6 class="card-text override-bs">NASA <i class="fa fa-check-circle"></i></h6>-->
+<!--                                    <p class="card-text override-bs text-muted">@NASA</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-3 col-lg-4">-->
+<!--                                <button class="btn btn-light follow">-->
+<!--                                    Follow-->
+<!--                                </button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
+<!--                    <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                        <div class="techListRow row g-0">-->
+<!--                            <div class="col-2">-->
+<!--                                <img  src="..\..\images\tuiter\explore\tesla.png"-->
+<!--                                    class="img-fluid rounded-start cardImage override-bs" alt="...">-->
+<!--                            </div>-->
+<!--                            <div class="col-7 col-lg-6">-->
+<!--                                <div class="card-body">-->
+<!--                                    <h6 class="card-text override-bs">Tesla <i class="fa fa-check-circle"></i></h6>-->
+<!--                                    <p class="card-text override-bs text-muted">@Tesla</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-3 col-lg-4">-->
+<!--                                <button class="btn btn-light follow">-->
+<!--                                    Follow-->
+<!--                                </button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
+
+<!--                    <a href="#" class="list-group-item techList override-bs list-group-item-action card">-->
+<!--                        <div class="techListRow row g-0">-->
+<!--                            <div class="col-4 showButton">-->
+<!--                                Show More-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </a>-->
+
+
+<!--                </div>-->
+<!--                <div class="footer">-->
+
+<!--                    <p class="text-muted footerText">Terms of Service &nbsp; Privacy Policy &nbsp; Cookie Policy</p>-->
+
+<!--                    <p class="text-muted footerText">Adds Info &nbsp; More... &nbsp; &copy; 2021 Twitter. Inc</p>-->
+
+<!--                </div>-->
+
+
+
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+
+
+
+
+
+<!--</body>-->
+
+<!--</html>-->
