@@ -1,16 +1,17 @@
-[{ "_id": 123, "topic": "Web Development",
-  "userName": "ReactJS",
-  "time": "2h",
-  "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
-  "image": "elonmusk_post.jpeg",
-  "iconImg": "elonmusk_dp.png",
-  "handle": "@react" },
-  { "_id": 234, "topic": "Tesla",
-    "userName": "Elon Musk",
-    "time": "2h",
-    "title": "Tesla is making initiative to explore opportunities in classroom environment to educate next generation.",
-    "image": "elonmusk_post.jpeg",
-    "iconImg": "elonmusk_post.jpeg",
-    "handle": "@elon" }
-
+[
+  { "_id": 234, "topic1": "Tesla",
+    "userName1": "SpaceX",
+    "time1": "4h",
+    "title1": "Dennis and Akiko Tito are the first two crewmembers on Starship’s second commercial spaceflight around the Moon →",
+    "title_link1": "http://spacex.com/updates",
+    "image1": "elonmusk_dp.jpeg",
+    "iconImg1": "dennis.jpeg",
+    "handle1": "@SpaceX" ,
+    "topic2": "ElonMusk",
+    "userName2": "Elon Musk",
+    "time2": "2h",
+    "title2": "We might need a different name, as this is basically just Starlink with roaming capability, so you can take your terminal anywhere.",
+    "image2": "elon.jpeg",
+    "handle2": "@ElonMusk"
+  }
 ]
