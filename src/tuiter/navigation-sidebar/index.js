@@ -2,10 +2,12 @@ import React from "react";
 import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
 
-const NavigationSidebar = () => {
+const NavigationSidebar = ( {
+                                active = 'explore'
+                            }) => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
-    const active = paths[1];
+
 
     return (
         <div className="list-group">

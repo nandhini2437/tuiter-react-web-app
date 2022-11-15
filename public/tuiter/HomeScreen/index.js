@@ -3,11 +3,11 @@ import NavigationSidebar from "../explore/NavigationSidebar/index.js";
 import PostSummaryList from "../explore/PostSummaryList/index.js"
 
 import PostItemList from "./PostList/index.js"
-// import PostSummaryList from "./PostSummaryList/index.js"
+// import PostSummaryList from "./PostSummaryList/index.css"
 
 // import ExploreComponent from "./ExploreComponent.js"
 
-// import WhoToFollowListItem from "./WhoToFollowList/index.js";
+// import WhoToFollowListItem from "./WhoToFollowList/index.css";
 
 function homeScreenComponent() {
     $('#wd-homeScreen').append(`
