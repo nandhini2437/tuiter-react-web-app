@@ -15,14 +15,31 @@
     font-size: 15px;
 }
 
+
+
+.card-desc{
+    margin-left:60px;
+    font-weight: normal;
+    color:black;
+}
+
+.card-desc2{
+    margin-left:60px;
+    font-weight: normal;
+    color:black;
+    clear:left;
+    text-align: left;
+}
+
+
+.card-desc-link{
+    text-decoration:none;
+    color:dodgerblue;
+}
+
 .wd-postTrendingTittleSubSide {
     font-weight: 400;
     font-size: 13px;
-    color: black;
-}
-
-.wd-postTrendingTittle {
-    color: black;
 }
 
 .contentBox .card {
@@ -43,9 +60,25 @@
 
 .wd-postTrendingTitle {
     color: black;
+    display:inline-block;
+    margin-left: 10px;
 }
-.wd-postTrendingTittleSub, .card-text {
+
+.wd-homepostTitle{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    display:inline-block
+}
+
+.wd-postTrendingTittleSub {
     color: rgb(110, 118, 125);
+}
+
+.wd-img-style {
+    width:100%;
+    height: 300px;
+    border-radius: 20px;
 }
 
 .centerColImgWrapper {
@@ -81,17 +114,226 @@
     color: white;
 }
 
+.myContainer2 {
+    margin-top:10px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .list-group .active {
     background-color: rgb(29,161,242);
 }
 
-.redColor {
-    color: red !important;
+.wd-post-card{
+    margin-bottom: 10px !important;
 }
-.bi-heart-fill {
-    background-color: red !important;
+
+
+
+.wd-navigation-list {
+    list-style: none;
+    width: 504px;
 }
-.bi-heart-fill::before,
-.bi-heart-fill::after {
-    background-color: red !important;
+
+.wd-navigation-list li {
+    display:block;
+    width:110px;
+    float:left;
+    margin-left:2px;
+
+}
+
+.wd-navigation-list a {
+    display:block;
+    padding:16px;
+    font-size: 15px;
+    text-decoration:none;
+    color:rgb(110, 118, 125);
+}
+
+.wd-icon-space {
+    margin-left: 12px;
+}
+
+
+
+
+/*tweet in tweet*/
+
+.wd-mainContainer {
+    /* margin-left: 16px;
+    margin-top: 12px; */
+    border: 1px solid grey;
+}
+
+html {
+    background-color: black;
+}
+hr.wd-ruler {
+    border-bottom: 1px solid rgb(110, 118, 125);
+}
+.wd-TitleBmk {
+    padding-left: 16px;
+    padding-top: 12px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.wd-handlerBmk {
+    font-size: 13px;
+    padding-left: 16px;
+    padding-top: 12px;
+    color: rgb(110, 118, 125);
+    padding-bottom: 12px;
+}
+
+.wd-headerBmk {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.wd-headerBmk1 {
+    height: 700px;
+    padding-left: 16px;
+    padding-top: 15px;
+}
+
+.wd-ProfPicBmk {
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-row {
+    display: block;
+    clear: both;
+}
+
+.wd-leftColum {
+    /* width: 10%; */
+    float: left;
+}
+
+.wd-rightCol {
+    /* width: 30%; */
+    margin-left: 12px;
+    float: left;
+}
+
+.wd-leftColum1 {
+    /* width: 10%; */
+    padding-top: 25px;
+    float: left;
+}
+
+.wd-rightCol1 {
+    /* width: 30%; */
+    padding-top: 25px;
+    margin-left: 12px;
+    float: left;
+}
+
+.wd-picCaption {
+    display: inline;
+    font-size: 15px;
+    color: white;
+}
+
+.wd-picHandler {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-PicDesc {
+    font-size: 15px;
+    color: white;
+    width: 506px;
+    margin-bottom: 16px;
+}
+.wd-icon {
+    height: 14px;
+    width: 14px;
+}
+.wd-bookmark-contentImgBack {
+    border-radius: 20px;
+
+    border: 1px solid lightgray;
+}
+
+.wd-bookmark-contentImg {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 504px;
+    height: 264px;
+}
+
+.wd-bookmark-contentImg-Title {
+    color: white;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.wd-bookmark-contentImg-Content {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding-top:12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.wd-nav {
+    list-style: none;
+    width: 504px;
+}
+
+.wd-nav li {
+    display: block;
+    width: 110px;
+    float: left;
+    margin-left: 2px;
+}
+
+.wd-nav a {
+    display: block;
+    padding: 16px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.fa.fa-heart {
+    color: red;
+}
+.wd-ReactIcon {
+    margin-left: 12px;
+}
+
+.wd-homepostTitle2{
+    width:45px;
+    height:45px;
+    border-radius:25px;
+    display:inline-block;
+    float:left;
+}
+
+.rounded-circle{
+    width:50px;
+    height:50px;
+
+}
+
+.followLeft{
+    margin-left:5px;
+}
+
+
+
+.wd-postTrendingTitle2{
+    color: black;
+    display:inline-block;
+    margin-left: 10px;
+    float:left;
 }

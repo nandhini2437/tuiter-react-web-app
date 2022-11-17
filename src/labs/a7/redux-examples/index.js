@@ -19,7 +19,7 @@ const store = configureStore({
 const ReduxExamples = () => {
     return(
         <Provider store={store}>
-            <div>
+            <div className="reduxExampleDiv">
                 <h2>Redux Examples</h2>
                 <Todos/>
                 <HelloReduxExampleComponent/>

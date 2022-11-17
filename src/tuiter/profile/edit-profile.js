@@ -2,7 +2,7 @@ import React , {useState}  from "react";
 import "./index.css"
 import {useSelector, useDispatch} from "react-redux";
 import { useNavigate } from "react-router";
-import {changeFirstName, changeLastName, changeBio, changeHandle, changeDateOfBirth} from "./profile-reducer";
+import {changeFirstName, changeLastName, changeBio, changeHandle, changeDateOfBirth} from "../reducers/profile-reducer";
 
 const EditProfile = () => {
 
@@ -77,9 +77,8 @@ const EditProfile = () => {
             <h2>Edit Profile</h2>
 
             <div className="position-relative mb-2">
-                <img width="100%" height="200px" src="./images/banner.png" className="w-100" />
-                <img width="48px" height="48px" className="position-absolute wd-nudge-up text-white logo_sideBar" src="./images/profilePic.png" />
-
+                <img width="100%" height="200px" src={require(`../images/cover-image.jpeg`)} className="w-100" />
+                <img width="48px" height="48px" className="position-absolute wd-nudge-up text-white logo_sideBar" src={require(`../images/owner.jpg`)} />
             </div>
             <br />
 

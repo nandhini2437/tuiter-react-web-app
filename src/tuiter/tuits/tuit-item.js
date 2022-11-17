@@ -1,23 +1,19 @@
 import React from "react";
+import "./index.css"
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
-import "../home/index.css"
-const TuitItem  = (
+import {deleteTuit} from "../reducers/tuits-reducer";
+
+const TuitItem = (
     {
         post =
             {
-                "_id": 234,
-                "topic": "Space",
-                "userName": "SpaceX",
+                "topic": "Web Development",
+                "userName": "ReactJS",
                 "time": "2h",
-                "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-                "image": "teslaBigLogo.jpg",
-                "liked": true,
-                "replies": 123,
-                "retuits": 432,
-                "likes": 2345,
-                "handle": "@spacex",
-                "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+                "desc": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+                "title_link": "http://spacex.com/updates",
+                "iconImg": "dennis.jpeg",
+                "handle": "@react"
             }
     }
 ) => {
@@ -25,6 +21,12 @@ const TuitItem  = (
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuit(id));
     }
+    const likeTuitHandler = () => {
+        this.setState({
+            likes: this.state.likes + 1
+        })
+    };
+
 
     return(
 
@@ -33,7 +35,7 @@ const TuitItem  = (
             <div className="card-body">
 
                 <div>
-                    <img className="wd-homepostTitle" src={require(`../images/${post.iconImg}`)}/>
+                    <img className="wd-homepostTitle" src={require(`../images/home/dennis.jpeg`)}/>
                     <p className="wd-postTrendingTitle bold">{post.userName}
                         <i className="bi bi-check-circle-fill" aria-hidden="true"></i>
                         <span className="wd-postTrendingTittleSub"> - {post.handle}</span>
@@ -44,20 +46,20 @@ const TuitItem  = (
 
                 </div>
 
-                {/* <p className="card-text bold">{post.title}</p> */}
-                <p className="card-text">{post.tuit}</p>
-                {/* <div className="myContainer">
-<img src={require(`../images/${post.image}`)} className="wd-img-style"/>
-</div> */}
+
+                <div className="myContainer">
+                    <p className="card-desc bold">{post.desc} lklklkl</p>
+                    <img src={require(`../images/home/dennis.jpeg`)} className="wd-img-style"/>
+
+                </div>
                 <div>
                     <ul className="wd-navigation-list">
                         <li><a href="#"><i className="bi bi-chat" aria-hidden="true"> <span
-                            className="wd-icon-space">{post.replies}</span></i></a></li>
+                            className="wd-icon-space">10</span></i></a></li>
                         <li><a href="#"><i className="bi bi-lightning" aria-hidden="true"> <span
-                            className="wd-icon-space">{post.retuits}</span></i></a></li>
-                        <li><a href="#"><i className="bi bi-heart-fill" style={{ color: "red" }} aria-hidden="true"> <span
-                            className="wd-icon-space">
-                            <span style={{ color: "rgb(110, 118, 125)" }}>{post.likes}</span></span></i></a></li>
+                            className="wd-icon-space">23</span></i></a></li>
+                        <li><a href="#"><i className="bi bi-heart" onClick={() => likeTuitHandler()} aria-hidden="true"> <span
+                            className="wd-icon-space" >{post.likes}</span></i></a></li>
                         <li><a href="#"><i className="bi bi-arrow-bar-up" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>

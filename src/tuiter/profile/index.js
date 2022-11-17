@@ -18,8 +18,8 @@ const ProfileComponent = () => {
             <h2>Profile</h2>
 
             <div className="position-relative mb-2">
-                <img width="100%" height="200px" src="./images/banner.png" className="w-100" />
-                <img width="48px" height="48px" className="position-absolute wd-nudge-up text-white logo_sideBar" src="./images/profilePic.png" />
+                <img width="100%" height="200px" src={require(`../images/cover-image.jpeg`)} className="w-100" />
+                <img width="48px" height="48px" className="position-absolute wd-nudge-up text-white logo_sideBar" src={require(`../images/owner.jpg`)} />
 
             </div>
             <br />
