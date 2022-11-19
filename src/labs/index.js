@@ -5,7 +5,7 @@ import {Routes, Route} from "react-router";
 
 function Labs() {
     return (
-        <div>
+        <div className="containerMain">
             <Nav/>
             <Routes>
                 <Route index
