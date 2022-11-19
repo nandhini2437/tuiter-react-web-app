@@ -15,7 +15,9 @@
     font-size: 15px;
 }
 
-
+.likeRed{
+    color:red;
+}
 
 .card-desc{
     margin-left:60px;

@@ -7,7 +7,9 @@
     "image": "elonmusk_dp.jpeg",
     "iconImg": "dennis.jpeg",
     "handle": "@SpaceX",
-    "likes":0
+    "likes":0,
+    "liked": "false",
+    "color": ""
   },
   {"_id": 123,
     "topic": "ElonMusk",
@@ -16,6 +18,8 @@
     "desc": "We might need a different name, as this is basically just Starlink with roaming capability, so you can take your terminal anywhere.",
     "image": "elon.jpeg",
     "handle": "@ElonMusk",
-    "likes":0
+    "likes":0,
+    "liked": "false",
+    "color": ""
   }
 ]

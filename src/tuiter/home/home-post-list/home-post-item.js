@@ -12,7 +12,8 @@ const HomePostItem = (
                 "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
                 "title_link": "http://spacex.com/updates",
                 "iconImg": "dennis.jpeg",
-                "handle": "@react"
+                "handle": "@react",
+                "color":"red"
             }
     }
 ) => {
@@ -46,7 +47,8 @@ const HomePostItem = (
                             className="wd-icon-space">10</span></i></a></li>
                         <li><a href="#"><i className="bi bi-lightning" aria-hidden="true"> <span
                             className="wd-icon-space">23</span></i></a></li>
-                        <li><a href="#"><i className="bi bi-heart" aria-hidden="true"> <span
+
+                        <li><a href="#"><i className={`fa-solid fa-heart ${post.color}`} aria-hidden="true"> <span
                             className="wd-icon-space">{post.likes}</span></i></a></li>
                         <li><a href="#"><i className="bi bi-arrow-bar-up" aria-hidden="true"></i></a></li>
                     </ul>

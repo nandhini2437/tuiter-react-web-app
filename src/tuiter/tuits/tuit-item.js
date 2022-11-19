@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css"
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "../reducers/tuits-reducer";
+import {likeTuit} from "../reducers/tuits-reducer";
 
 const TuitItem = (
     {
@@ -21,10 +22,9 @@ const TuitItem = (
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuit(id));
     }
-    const likeTuitHandler = () => {
-        this.setState({
-            likes: this.state.likes + 1
-        })
+    const likeTuitHandler = (id) => {
+            dispatch(likeTuit(id));
+
     };
 
 
@@ -48,7 +48,7 @@ const TuitItem = (
 
 
                 <div className="myContainer">
-                    <p className="card-desc bold">{post.desc} lklklkl</p>
+                    <p className="text-dark" style={{textAlign:'left',fontSize:'13px',marginTop:'5px'}}>{post.desc}</p>
                     <img src={require(`../images/home/dennis.jpeg`)} className="wd-img-style"/>
 
                 </div>
@@ -58,7 +58,7 @@ const TuitItem = (
                             className="wd-icon-space">10</span></i></a></li>
                         <li><a href="#"><i className="bi bi-lightning" aria-hidden="true"> <span
                             className="wd-icon-space">23</span></i></a></li>
-                        <li><a href="#"><i className="bi bi-heart" onClick={() => likeTuitHandler()} aria-hidden="true"> <span
+                        <li><a href="#"><i className={`bi bi-heart ${post.color}`} onClick={() => likeTuitHandler(post._id)} aria-hidden="true"> <span
                             className="wd-icon-space" >{post.likes}</span></i></a></li>
                         <li><a href="#"><i className="bi bi-arrow-bar-up" aria-hidden="true"></i></a></li>
                     </ul>
