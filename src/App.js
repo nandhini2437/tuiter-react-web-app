@@ -7,7 +7,7 @@ import {Routes, Route} from "react-router";
 function App() {
     return (
         <BrowserRouter>
-            <div className="container containerMain" style={{height:'100vh'}}>
+            <div className="container containerMain" style={{height:'100%'}}>
                 <Routes>
                     <Route path="/*" element={<Labs/>}/>
                     <Route path="/hello" element={<HelloWorld/>}/>
