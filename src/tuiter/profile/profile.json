@@ -1,0 +1,15 @@
+{
+    "firstName": "Tom", 
+    "lastName": "Jerry", 
+    "handle": "@cn_netw",
+    "profilePicture": "./images/profilePic.png", 	
+    "bannerPicture": "./images/banner.png",
+    "bio": "Software Engineer, Web dev, Space, and renewable enthusiast.Retuits and likes are not endorsements.",
+    "website": "wesd/whatup",
+    "location": "Boston, MA",	
+    "dateOfBirth": "23/3/1996",	
+    "dateJoined": "4/2009",
+    "followingCount": 340,	
+    "followersCount": 223
+  
+}

@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuit</title>
 </head>
-<body>
-<a href="navigation.html">Back</a>
-<h1>Tuiter</h1>
-<h2>Tuit</h2>
-<img src="owner.jpg"
-     height="48px"
-     width="48px"/>
-<form id="textarea">
-    <textarea cols="20" rows="2" placeholder="What's happening?"></textarea>
-</form>
 
-<select id="select-one-option" style="margin-bottom:6px;">
-    <option selected value="EVERYONE">Everyone can reply</option>
-    <option value="FOLLOWING">People you follow</option>
-    <option value="MENTIONED" >Only people you mention</option>
-</select>
-<hr>
-<div>
-    <input type="file"/>
-    <button>Tuiit</button>
-</div>
-<hr>
+<body>
+
+    <!-- The back link nato navigation page -->
+    <a href="navigation.html">Back</a>
+
+    <!-- Headers for the page -->
+    <h1>Tuiter</h1>
+    <h2>Tuit</h2>
+
+    <!-- Image of the account holder -->
+
+    <img width="48px" height="48px" src="./images/profilePic.png" />
+    <br />
+
+    <textarea placeholder="What's happening?"></textarea>
+    <br>
+
+    <select>
+        <option value="EVERYONE" selected>Everyone can reply</option>
+        <option value="FOLLOWING">People you follow</option>
+        <option value="MENTIONED">Only people you mention</option>
+    </select>
+    <br>
+    <hr>
+
+    <input type="file" />
+    <button>Tuit</button>
+    <hr>
+
 </body>
+
 </html>

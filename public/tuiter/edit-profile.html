@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit profile</title>
 </head>
-<body>
-<a href="profile.html">Back</a>
-<h1>Tuiter</h1>
-<h2>Edit Profile</h2>
-<a href="profile.html">Save</a>
-<img src="cover-image.jpeg"
-     height="200px"
-     width="100%"/>
-<input type="file"/>
-<br/>
-<img src="owner.jpg"
-     height="48px"
-     width="48px"/>
-<br/>
-<input type="file" style="margin-bottom:6px;"/>
-<hr>
-<div>
-    <label for="text-fields-name">
-        Name
-    </label><br/>
-    <input id="text-fields-name" placeholder="WebDev"/>
-    <hr>
-</div>
 
-    <form id="textarea">
-        <label>Bio:</label><br/>
-        <textarea cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+<body>
+    <!-- The back link nato navigation page -->
+    <a href="profile.html">Back</a>
+
+    <!-- Headers for the page -->
+    <h1>Tuiter</h1>
+    <h2>Edit Profile</h2>
+
+    <!-- Save link -->
+    <a href="profile.html">Save</a>
+    <!-- Image of the banner -->
+
+    <img width="100%" height="200px" src="./images/banner.png" />
+    <br />
+    <input type="file" />
+    <br>
+    <!-- Image of the account holder -->
+
+    <img width="48px" height="48px" src="./images/profilePic.png" />
+    <br>
+    <input type="file" />
+    <hr>
+
+    <label for="text-fields-name">Name</label><br>
+    <input id="text-fields-name" placeholder="Name" value="WebDev" /><br>
+    <hr>
+
+    <label for="text-fields-bio">Bio</label><br>
+    <textarea id="text-fields-bio" cols="50"
+        rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
     </form>
+    <hr>
 
 </body>
+
 </html>
